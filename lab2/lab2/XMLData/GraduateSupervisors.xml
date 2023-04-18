@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GraduateSupervisors>
+	<GraduateSupervisor>
+		<Id>1</Id>
+		<FullName>Вербицька Марiя Вiкторiвна</FullName>
+		<Position>Завiдувач кафедри</Position>
+	</GraduateSupervisor>
+	<GraduateSupervisor>
+		<Id>2</Id>
+		<FullName>Шевченко Наталя Сергiївна</FullName>
+		<Position>Викладач</Position>
+	</GraduateSupervisor>
+	<GraduateSupervisor>
+		<Id>3</Id>
+		<FullName>Петренко Максим Вiкторович</FullName>
+		<Position>Викладач</Position>
+	</GraduateSupervisor>
+	<GraduateSupervisor>
+		<Id>4</Id>
+		<FullName>Коган Ярослав Станiславович</FullName>
+		<Position>Викладач</Position>
+	</GraduateSupervisor>
+	<GraduateSupervisor>
+		<Id>5</Id>
+		<FullName>Мельник Сергiй Iгорович</FullName>
+		<Position>Декан</Position>
+	</GraduateSupervisor>
+	<GraduateSupervisor>
+		<Id>6</Id>
+		<FullName>Сидоренко Iрина Миколаївна</FullName>
+		<Position>Викладач</Position>
+	</GraduateSupervisor>
+</GraduateSupervisors>

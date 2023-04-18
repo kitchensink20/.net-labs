@@ -179,7 +179,7 @@ namespace lab1
 
             return query14;
         }
-
+        //IDictionary
         public IEnumerable<IGrouping<int, GraduateStudent>> GroupStudentsBySupervisorsSortByBD()
         {
             //var query15 = dataContext.Students.OrderBy(student => student.BirthDate).GroupBy(student => student.GraduateSupervisor);
@@ -214,6 +214,7 @@ namespace lab1
             return query17;
         }
 
+        //public IEnumerable<GraduateStudent> GetTopStudents(int count)
         public IEnumerable<GraduateStudent> Get3TopStudents()
         {
             var query18 = (

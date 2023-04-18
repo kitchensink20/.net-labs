@@ -1,6 +1,5 @@
 ﻿using lab1.Properties;
 using System;
-using System.Collections.Generic;
 using System.Text;
 
 namespace lab1
@@ -10,6 +9,7 @@ namespace lab1
         static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.Unicode;
+
             IDataContext dataContext = new DataContext(); 
             IDataInitializer dataInitializer = new DataInitializer(dataContext);
             dataInitializer.InitializeWithData();

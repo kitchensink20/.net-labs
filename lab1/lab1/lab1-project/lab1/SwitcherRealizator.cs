@@ -30,11 +30,6 @@ namespace lab1
                     Console.WriteLine(ConsoleTexts.InputErrorMessage);
                     continue;
                 }
-                if (option < 0 || option > 21)
-                {
-                    Console.WriteLine(ConsoleTexts.InputErrorMessage);
-                    continue;
-                }
 
                 switch (option)
                 {
@@ -123,6 +118,7 @@ namespace lab1
                         consoleViewer.ShowStudentsWithHighestScoreInGroup(result21);
                         break;
                     default:
+                        Console.WriteLine(ConsoleTexts.InputErrorMessage);
                         break;
                 }
             }

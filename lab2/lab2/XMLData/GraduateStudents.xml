@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GraduateStudents>
+	<GraduateStudent>
+		<FullName>Литовченко Алiна Олександрiвна</FullName>
+		<GroupNumber>IC-11</GroupNumber>
+		<BirthDate>2004-06-20</BirthDate>
+		<AverageScore>93.3</AverageScore>
+		<SupervisorId>1</SupervisorId>
+	</GraduateStudent>
+	<GraduateStudent>
+		<FullName>Iвасiшина Анна Григорiвна</FullName>
+		<GroupNumber>IC-11</GroupNumber>
+		<BirthDate>2004-02-23</BirthDate>
+		<AverageScore>95.1</AverageScore>
+		<SupervisorId>1</SupervisorId>
+	</GraduateStudent>
+	<GraduateStudent>
+		<FullName>Толкунов Iван Сергiйович</FullName>
+		<GroupNumber>IK-03</GroupNumber>
+		<BirthDate>2001-07-07</BirthDate>
+		<AverageScore>97.2</AverageScore>
+		<SupervisorId>4</SupervisorId>
+	</GraduateStudent>
+	<GraduateStudent>
+		<FullName>Тріпак Артем Ігорович</FullName>
+		<GroupNumber>IC-02</GroupNumber>
+		<BirthDate>2004-04-15</BirthDate>
+		<AverageScore>90.7</AverageScore>
+		<SupervisorId>3</SupervisorId>
+	</GraduateStudent>
+	<GraduateStudent>
+		<FullName>Шелест Полiна Михайлiвна</FullName>
+		<GroupNumber>IC-11</GroupNumber>
+		<BirthDate>2004-01-18</BirthDate>
+		<AverageScore>88.2</AverageScore>
+		<SupervisorId>3</SupervisorId>
+	</GraduateStudent>
+	<GraduateStudent>
+		<FullName>Попадiна Юлiя Юр'ївна</FullName>
+		<GroupNumber>IC-02</GroupNumber>
+		<BirthDate>2004-07-16</BirthDate>
+		<AverageScore>89.3</AverageScore>
+		<SupervisorId>1</SupervisorId>
+	</GraduateStudent>
+	<GraduateStudent>
+		<FullName>Коломойченко Катерина Дмитрiвна</FullName>
+		<GroupNumber>IC-12</GroupNumber>
+		<BirthDate>2003-12-3</BirthDate>
+		<AverageScore>82.1</AverageScore>
+		<SupervisorId>6</SupervisorId>
+	</GraduateStudent>
+	<GraduateStudent>
+		<FullName>Антропова Софiя Леонiдiвна</FullName>
+		<GroupNumber>IC-02</GroupNumber>
+		<BirthDate>2004-03-07</BirthDate>
+		<AverageScore>90.9</AverageScore>
+		<SupervisorId>3</SupervisorId>
+	</GraduateStudent>
+	<GraduateStudent>
+		<FullName>Рiвний Станiслав Станiславович</FullName>
+		<GroupNumber>IC-11</GroupNumber>
+		<BirthDate>2003-09-22</BirthDate>
+		<AverageScore>73.1</AverageScore>
+		<SupervisorId>4</SupervisorId>
+	</GraduateStudent>
+	<GraduateStudent>
+		<FullName>Чорна Таiсiя Станiславiвна</FullName>
+		<GroupNumber>IC-11</GroupNumber>
+		<BirthDate>2004-04-20</BirthDate>
+		<AverageScore>67.9</AverageScore>
+		<SupervisorId>2</SupervisorId>
+	</GraduateStudent>
+	<GraduateStudent>
+		<FullName>Зiбро Каспер Андрiйович</FullName>
+		<GroupNumber>IC-13</GroupNumber>
+		<BirthDate>2003-05-17</BirthDate>
+		<AverageScore>86.9</AverageScore>
+		<SupervisorId>3</SupervisorId>
+	</GraduateStudent>
+	<GraduateStudent>
+		<FullName>Базований Мiхаль Миколайович</FullName>
+		<GroupNumber>IC-12</GroupNumber>
+		<BirthDate>2002-01-10</BirthDate>
+		<AverageScore>97.7</AverageScore>
+		<SupervisorId>4</SupervisorId>
+	</GraduateStudent>
+</GraduateStudents>
