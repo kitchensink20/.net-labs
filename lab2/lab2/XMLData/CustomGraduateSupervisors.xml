@@ -1,18 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <GraduateSupervisors>
   <GraduateSupervisor>
-    <FullName>Солдат?в Олег Петрович</FullName>
-    <Position>Викладач</Position>
+    <FullName>1</FullName>
+    <Position>1</Position>
     <GraduateSupervisorId>1</GraduateSupervisorId>
-  </GraduateSupervisor>
-  <GraduateSupervisor>
-    <FullName>Петриченко ?ван ?горович</FullName>
-    <Position>Викладач</Position>
-    <GraduateSupervisorId>2</GraduateSupervisorId>
-  </GraduateSupervisor>
-  <GraduateSupervisor>
-    <FullName>Б?локриницька Олена Дмитр?вна</FullName>
-    <Position>Викладач</Position>
-    <GraduateSupervisorId>3</GraduateSupervisorId>
   </GraduateSupervisor>
 </GraduateSupervisors>

@@ -61,6 +61,15 @@ namespace lab2.Properties {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Введене значення має бути цілим числом в межах від 1950 до 2010. Спробуйте знову:.
+        /// </summary>
+        internal static string BirthYearInputErrorMessage {
+            get {
+                return ResourceManager.GetString("BirthYearInputErrorMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Введіть кількість студентів, яку бажаєте записати в файл:.
         /// </summary>
         internal static string CreateStudentXmlFileStartMessage {
@@ -111,6 +120,15 @@ namespace lab2.Properties {
         internal static string DoubleParseErrorMessage {
             get {
                 return ResourceManager.GetString("DoubleParseErrorMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Студентів, підпадаючих під задані параметри, знайдено не було..
+        /// </summary>
+        internal static string EmptyStudentListMessage {
+            get {
+                return ResourceManager.GetString("EmptyStudentListMessage", resourceCulture);
             }
         }
         
@@ -168,6 +186,51 @@ namespace lab2.Properties {
         internal static string MenuNavigateMessage {
             get {
                 return ResourceManager.GetString("MenuNavigateMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Середнє значення середнього балу всіх студентів - .
+        /// </summary>
+        internal static string StudentAverageScoreMessage {
+            get {
+                return ResourceManager.GetString("StudentAverageScoreMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Інформація про студента:.
+        /// </summary>
+        internal static string StudentDataMessage {
+            get {
+                return ResourceManager.GetString("StudentDataMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Введена група містить таку кількість студентів - .
+        /// </summary>
+        internal static string StudentGroupAmountCommandMsg {
+            get {
+                return ResourceManager.GetString("StudentGroupAmountCommandMsg", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Студента з таким ім&apos;ям не існує. Спробуйте знову:.
+        /// </summary>
+        internal static string StudentSearchByFullNameErrorMessage {
+            get {
+                return ResourceManager.GetString("StudentSearchByFullNameErrorMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Інформація про наукового керівника:.
+        /// </summary>
+        internal static string SupervisorDataMessage {
+            get {
+                return ResourceManager.GetString("SupervisorDataMessage", resourceCulture);
             }
         }
     }

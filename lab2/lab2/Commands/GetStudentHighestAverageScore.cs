@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace lab2.Commands
 {
-    public class ShowStudentHighestAverageScore : ICommand
+    public class GetStudentHighestAverageScore : ICommand
     {
         private readonly IDataRepository dataRepository;
         private readonly IConsoleViewer consoleViewer;
-        public ShowStudentHighestAverageScore(IDataRepository dataRepository, IConsoleViewer consoleViewer)
+        public GetStudentHighestAverageScore(IDataRepository dataRepository, IConsoleViewer consoleViewer)
         {
             this.dataRepository = dataRepository;
             this.consoleViewer = consoleViewer;

@@ -26,14 +26,18 @@ namespace lab2
             XmlValidatorModel.Validate(XmlPathGenerator.GetPathToGraduateStudentsXmlFile());
 
             XmlWriterModel xmlWriter = new XmlWriterModel();
-            xmlWriter.CreateGraduateSupervisorsXmlFile(XmlPathGenerator.GetPathToCustomGraduateSupervisorsXmlFile());
+            //xmlWriter.CreateGraduateSupervisorsXmlFile(XmlPathGenerator.GetPathToCustomGraduateSupervisorsXmlFile());
          
             IConsoleViewer consoleViewer = new ConsoleViewer();
-            IDataRepository dataRepository = new DataRepository(XmlPathGenerator.GetPathToCustomGraduateStudentsXmlFile(), 
-                                                                XmlPathGenerator.GetPathToCustomGraduateSupervisorsXmlFile(),
+            IDataRepository dataRepository = new DataRepository(XmlPathGenerator.GetPathToGraduateStudentsXmlFile(), 
+                                                                XmlPathGenerator.GetPathToGraduateSupervisorsXmlFile(),
                                                                 XmlPathGenerator.GetPathToCustomGraduateStudentsXmlFile(),
                                                                 XmlPathGenerator.GetPathToCustomGraduateSupervisorsXmlFile());
 
+          
+            ICommand command = new FilterSupervisorsByStudentsAverageScore(dataRepository, consoleViewer);
+            command.Execute();
+           
       
             
             Console.ReadKey();

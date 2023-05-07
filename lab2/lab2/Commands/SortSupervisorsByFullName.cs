@@ -2,19 +2,19 @@
 
 namespace lab2.Commands
 {
-    public class ShowCustomSupervisorsXmlFile : ICommand
+    public class SortSupervisorsByFullName : ICommand
     {
         private readonly IDataRepository dataRepository;
         private readonly IConsoleViewer consoleViewer;
-        public ShowCustomSupervisorsXmlFile(IDataRepository dataRepository, IConsoleViewer consoleViewer)
+        public SortSupervisorsByFullName(IDataRepository dataRepository, IConsoleViewer consoleViewer)
         {
             this.dataRepository = dataRepository;
             this.consoleViewer = consoleViewer;
         }
         public void Execute()
         {
-            var supervisorsXElements = dataRepository.GetAllCustSupervisorsXElements();
-            consoleViewer.ShowCustomXmlFileContent(supervisorsXElements);
+            var supervisorsList = dataRepository.SortSupervisorsByFullName();
+            consoleViewer.ShowSupervisorsList(supervisorsList);
         }
     }
 }
