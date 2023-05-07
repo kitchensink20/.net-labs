@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<GraduateStudents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="GraduateStudent.xsd">
+<GraduateStudents>
 	<GraduateStudent>
 		<FullName>Литовченко Алiна Олександрiвна</FullName>
 		<GroupNumber>IC-11</GroupNumber>
@@ -45,7 +45,7 @@
 	<GraduateStudent>
 		<FullName>Коломойченко Катерина Дмитрiвна</FullName>
 		<GroupNumber>IC-12</GroupNumber>
-		<BirthDate>2003-12-03</BirthDate>
+		<BirthDate>2003-12-3</BirthDate>
 		<AverageScore>82.1</AverageScore>
 		<SupervisorId>6</SupervisorId>
 	</GraduateStudent>

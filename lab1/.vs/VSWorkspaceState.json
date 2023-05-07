@@ -3,8 +3,9 @@
     "",
     "\\lab1",
     "\\lab1\\lab1-project",
-    "\\lab1\\lab1-project\\lab1"
+    "\\lab1\\lab1-project\\lab1",
+    "\\lab1\\lab1-project\\lab1\\Classes"
   ],
-  "SelectedNode": "\\lab1\\lab1-project\\lab1\\DataService.cs",
+  "SelectedNode": "\\lab1\\lab1-project\\lab1\\Classes\\GraduateSupervisor.cs",
   "PreviewInSolutionExplorer": false
 }
