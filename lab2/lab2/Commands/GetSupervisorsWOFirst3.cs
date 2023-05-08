@@ -6,10 +6,17 @@ namespace lab2.Commands
     {
         private readonly IDataRepository dataRepository;
         private readonly IConsoleViewer consoleViewer;
+        private const int number = 17;
+
         public GetSupervisorsWOFirst3(IDataRepository dataRepository, IConsoleViewer consoleViewer)
         {
             this.dataRepository = dataRepository;
             this.consoleViewer = consoleViewer;
+        }
+
+        public int GetNumber()
+        {
+            return number;
         }
         public void Execute()
         {

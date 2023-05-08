@@ -5,9 +5,9 @@ using System.Xml;
 
 namespace lab2
 {
-    public static class XmlReaderModel
+    public class XmlReaderModel
     {
-        public static List<GraduateStudent> GetGraduateStudents(XmlDocument xmlDoc)
+        public List<GraduateStudent> GetGraduateStudents(XmlDocument xmlDoc)
         { 
             List<GraduateStudent> graduateStudents = new List<GraduateStudent>();
 
@@ -28,7 +28,7 @@ namespace lab2
             return graduateStudents;
         }
 
-        public static List<GraduateSupervisor> GetGraduateSupervisors(XmlDocument xmlDoc)
+        public List<GraduateSupervisor> GetGraduateSupervisors(XmlDocument xmlDoc)
         {
             List<GraduateSupervisor> graduateSupervisors = new List<GraduateSupervisor>();
 

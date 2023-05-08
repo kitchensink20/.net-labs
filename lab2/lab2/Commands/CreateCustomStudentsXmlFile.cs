@@ -12,6 +12,7 @@ namespace lab2.Commands
     {
         private readonly XmlWriterModel xmlWriterModel;
         private readonly string filePath;
+        private const int number = 2;
 
         public CreateCustomStudentsXmlFile(XmlWriterModel xmlWriterModel, string filePath)
         {
@@ -19,6 +20,10 @@ namespace lab2.Commands
             this.filePath = filePath;
         }
 
+        public int GetNumber()
+        {
+            return number;
+        }
         public void Execute()
         {
             xmlWriterModel.CreateGraduateStudentsXmlFile(filePath);

@@ -1,9 +1,4 @@
-﻿using lab2.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using System.Xml.Linq;
 
 namespace lab2.Interfaces
@@ -19,7 +14,7 @@ namespace lab2.Interfaces
         IEnumerable<XElement> SortSupervisorsByFullName();
         IEnumerable<XElement> DescSortStudentsByAverageScore();
         IEnumerable<XElement> GetStudentsBornInSpecifiedYear(int startYear, int endYear);
-        //IDictionary<XElement, int> GroupStudentsBySupervisorId();
+        IEnumerable<XElement> TakeWhileGreaterAverageScore(double averageScore);
         IEnumerable<XElement> Get3TopStudents();
         IEnumerable<XElement> GetStudentsWithHighestScroreInGroup();
         XElement GetSupervisorWithLowestStudentAvScore();

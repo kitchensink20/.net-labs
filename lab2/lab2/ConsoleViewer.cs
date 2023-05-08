@@ -1,4 +1,6 @@
-﻿using lab2.Interfaces;
+﻿using lab2.Commands;
+using lab2.Interfaces;
+using lab2.Models;
 using lab2.Properties;
 using System;
 using System.Collections.Generic;
@@ -72,6 +74,16 @@ namespace lab2
                     + student.Element("BirthDate").Value + ", сер. бал: " +
                     student.Element("AverageScore").Value + ", айді керівника: " +
                     student.Element("SupervisorId").Value);
+        }
+        public void ShowDeserializedStudentsData(IEnumerable<GraduateStudent> students)
+        {
+            foreach(var student in students)
+                Console.WriteLine(student);
+        }
+        public void ShowDeserializedSupervisorsData(IEnumerable<GraduateSupervisor> supervisors)
+        {
+            foreach (var supervisor in supervisors)
+                Console.WriteLine(supervisor);
         }
     }
 }

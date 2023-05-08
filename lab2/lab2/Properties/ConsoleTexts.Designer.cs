@@ -70,6 +70,15 @@ namespace lab2.Properties {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Такої опції не існує. Спробуйте знову..
+        /// </summary>
+        internal static string CommandInputErrorMessage {
+            get {
+                return ResourceManager.GetString("CommandInputErrorMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Введіть кількість студентів, яку бажаєте записати в файл:.
         /// </summary>
         internal static string CreateStudentXmlFileStartMessage {
@@ -133,6 +142,24 @@ namespace lab2.Properties {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Введіть номер команди(exit для виходу з програми):.
+        /// </summary>
+        internal static string EnterCommandNumberMessage {
+            get {
+                return ResourceManager.GetString("EnterCommandNumberMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Натисність будь-яку клавішу для виходу з програми....
+        /// </summary>
+        internal static string FinalMessage {
+            get {
+                return ResourceManager.GetString("FinalMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Натисність будь-яку клавішу для завершення програми...
         /// </summary>
         internal static string FinishMessage {
@@ -163,7 +190,10 @@ namespace lab2.Properties {
         ///   Ищет локализованную строку, похожую на 1 - Створити або перезаписати XML-файл для зберігання інформації про наукових керівників
         ///2 - Створити або перезаписати XML-файл для зберігання інформаціх про студентів-випускників
         ///3 - Переглянути вміст створеного файлу для зберігання інформації про наукових керівників
-        ///4 - Переглянути вміст створеного файлу для зберігання інформації про студентів-випускників.
+        ///4 - Переглянути вміст створеного файлу для зберігання інформації про студентів-випускників
+        ///5 - Отримати значення найвищого середнього балу серед усіх студентів-випускників
+        ///6 - Змінити значення середнього балу студента
+        ///7 - Отримати кількі [остаток строки не уместился]&quot;;.
         /// </summary>
         internal static string Menu {
             get {

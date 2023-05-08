@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using lab2.Models;
+using System;
+using System.Collections.Generic;
 using System.Xml.Linq;
 
 namespace lab2.Interfaces
@@ -13,5 +15,7 @@ namespace lab2.Interfaces
         void ShowSupervisorsList(IEnumerable<XElement> supervisors);
         void ShowStudentsList(IEnumerable<XElement> students);
         void ShowStudentAverageScore(double score);
+        void ShowDeserializedStudentsData(IEnumerable<GraduateStudent> students);
+        void ShowDeserializedSupervisorsData(IEnumerable<GraduateSupervisor> supervisors);
     }
 }

@@ -46,11 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CommandsManager.cs" />
     <Compile Include="Commands\ChangeStudentAverageScore.cs" />
     <Compile Include="Commands\CreateCustomStudentsXmlFile.cs" />
     <Compile Include="Commands\CreateCustomSupervisorsXmlFile.cs" />
     <Compile Include="Commands\FilterSupervisorsByStudentsAverageScore.cs" />
-    <Compile Include="Commands\FindStudentByFullName.cs" />
+    <Compile Include="Commands\GetStudentDataByFullName.cs" />
     <Compile Include="Commands\GetCountOfStudentsFromGroup.cs" />
     <Compile Include="Commands\GetStudentAverageScore.cs" />
     <Compile Include="Commands\GetStudentsBornInSpecifiedYears.cs" />
@@ -62,10 +63,14 @@
     <Compile Include="Commands\ShowCustomStudentsXmlFile.cs" />
     <Compile Include="Commands\ShowCustomSupervisorsXmlFile.cs" />
     <Compile Include="Commands\GetStudentHighestAverageScore.cs" />
+    <Compile Include="Commands\ShowStudentsDataFromXmlWithXmlReader.cs" />
+    <Compile Include="Commands\ShowSupervisorsDataFromXmlWithXmlSerializer.cs" />
     <Compile Include="Commands\SortDescStudentsByAverageScore.cs" />
     <Compile Include="Commands\SortSupervisorsByFullName.cs" />
+    <Compile Include="Commands\TakeWhileGreaterAverageScore.cs" />
     <Compile Include="ConsoleViewer.cs" />
     <Compile Include="Interfaces\ICommand.cs" />
+    <Compile Include="Interfaces\ICommandsManager.cs" />
     <Compile Include="Interfaces\IConsoleViewer.cs" />
     <Compile Include="Interfaces\IDataRepository.cs" />
     <Compile Include="XMLServices\XmlSerializerModel.cs" />

@@ -110,17 +110,13 @@ namespace lab2
         }
 
         // query 10
-        public IDictionary<int, List<XElement>> GroupStudentsBySupervisorId()
+        public IEnumerable<XElement> TakeWhileGreaterAverageScore(double averageScore)
         {
             var result = studentsDoc.Descendants("GraduateStudent")
-                            .GroupBy(student => (int)student.Element("SupervisorId"))
-                            .Select(group => new
-                            {
-                                SupevisorId = group.Key,
-                                Students = group.ToList()
-                            });
+                                    .OrderByDescending(student => double.Parse(student.Element("AverageScore").Value))
+                                    .TakeWhile(student => double.Parse(student.Element("AverageScore").Value) > averageScore);
 
-            return null;
+            return result;
         }
 
         // query 11
