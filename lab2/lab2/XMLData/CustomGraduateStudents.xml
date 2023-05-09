@@ -5,20 +5,20 @@
     <GroupNumber>?С-11</GroupNumber>
     <BirthDate>20-00-2004</BirthDate>
     <AverageScore>90</AverageScore>
-    <GraduateSupervisorId>2</GraduateSupervisorId>
+    <GraduateSupervisorId>1</GraduateSupervisorId>
   </GraduateStudent>
   <GraduateStudent>
-    <FullName>Ал?на</FullName>
+    <FullName>Степан</FullName>
     <GroupNumber>?С-12</GroupNumber>
-    <BirthDate>07-00-2001</BirthDate>
-    <AverageScore>89</AverageScore>
-    <GraduateSupervisorId>3</GraduateSupervisorId>
+    <BirthDate>21-00-2004</BirthDate>
+    <AverageScore>91</AverageScore>
+    <GraduateSupervisorId>2</GraduateSupervisorId>
   </GraduateStudent>
   <GraduateStudent>
-    <FullName>Максим</FullName>
-    <GroupNumber>?С-13</GroupNumber>
-    <BirthDate>20-00-2004</BirthDate>
-    <AverageScore>74</AverageScore>
-    <GraduateSupervisorId>2</GraduateSupervisorId>
+    <FullName>Олександр</FullName>
+    <GroupNumber>?С-11</GroupNumber>
+    <BirthDate>22-00-2004</BirthDate>
+    <AverageScore>92</AverageScore>
+    <GraduateSupervisorId>3</GraduateSupervisorId>
   </GraduateStudent>
 </GraduateStudents>

@@ -1,13 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <GraduateSupervisors>
   <GraduateSupervisor>
-    <FullName>2</FullName>
-    <Position>F</Position>
+    <FullName>?ван</FullName>
+    <Position>Викладач</Position>
     <GraduateSupervisorId>1</GraduateSupervisorId>
   </GraduateSupervisor>
   <GraduateSupervisor>
-    <FullName>F</FullName>
-    <Position>F</Position>
+    <FullName>Степан</FullName>
+    <Position>Викладач</Position>
     <GraduateSupervisorId>2</GraduateSupervisorId>
+  </GraduateSupervisor>
+  <GraduateSupervisor>
+    <FullName>Олександр</FullName>
+    <Position>Декан</Position>
+    <GraduateSupervisorId>3</GraduateSupervisorId>
   </GraduateSupervisor>
 </GraduateSupervisors>

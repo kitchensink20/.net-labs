@@ -1,5 +1,4 @@
 ﻿using lab2.Interfaces;
-using lab2.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -198,6 +197,5 @@ namespace lab2
 
             return result;
         }
-
     }
 }

@@ -3,7 +3,6 @@ using lab2.Interfaces;
 using lab2.Properties;
 using System;
 using System.Text;
-using static lab2.XmlSerializerModel;
 
 namespace lab2
 {
@@ -13,10 +12,17 @@ namespace lab2
         {
             Console.OutputEncoding = Encoding.Unicode;
 
-            XmlValidatorModel.AddNewXmlSchema(XmlPathGenerator.GetPathToGraduateSupervisorsXsdFile());
-            XmlValidatorModel.AddNewXmlSchema(XmlPathGenerator.GetPathToGraduateStudentsXsdFile());
-            XmlValidatorModel.Validate(XmlPathGenerator.GetPathToGraduateSupervisorsXmlFile());
-            XmlValidatorModel.Validate(XmlPathGenerator.GetPathToGraduateStudentsXmlFile());
+            string studentsXmlFile = XmlPathGenerator.GetPathToGraduateStudentsXmlFile(),
+                supervisorsXmlFile = XmlPathGenerator.GetPathToGraduateSupervisorsXmlFile(),
+                customStudentsXmlFile = XmlPathGenerator.GetPathToCustomGraduateStudentsXmlFile(),
+                customSupervisorsXmlFile = XmlPathGenerator.GetPathToCustomGraduateSupervisorsXmlFile(),
+                studentXsdFile = XmlPathGenerator.GetPathToGraduateStudentsXsdFile(),
+                supervisorXsdFile = XmlPathGenerator.GetPathToGraduateSupervisorsXsdFile();
+
+            XmlValidatorModel.AddNewXmlSchema(supervisorXsdFile);
+            XmlValidatorModel.AddNewXmlSchema(studentXsdFile);
+            XmlValidatorModel.Validate(supervisorsXmlFile);
+            XmlValidatorModel.Validate(studentsXmlFile);
 
             Console.WriteLine("\n" + ConsoleTexts.Menu);
 
@@ -24,10 +30,8 @@ namespace lab2
             XmlSerializerModel xmlSerializer = new XmlSerializerModel();
             XmlWriterModel xmlWriter = new XmlWriterModel();
             IConsoleViewer consoleViewer = new ConsoleViewer();
-            IDataRepository dataRepository = new DataRepository(XmlPathGenerator.GetPathToGraduateStudentsXmlFile(),
-                                                                XmlPathGenerator.GetPathToGraduateSupervisorsXmlFile(),
-                                                                XmlPathGenerator.GetPathToCustomGraduateStudentsXmlFile(),
-                                                                XmlPathGenerator.GetPathToCustomGraduateSupervisorsXmlFile());
+            IDataRepository dataRepository = new DataRepository(studentsXmlFile, supervisorsXmlFile,
+                                                                customStudentsXmlFile, customSupervisorsXmlFile);
 
             CommandsManager commandsManager = new CommandsManager();
             commandsManager.AddCommand(new ChangeStudentAverageScore(dataRepository, consoleViewer));
@@ -49,15 +53,12 @@ namespace lab2
             commandsManager.AddCommand(new ShowCustomSupervisorsXmlFile(dataRepository, consoleViewer));
             commandsManager.AddCommand(new CreateCustomStudentsXmlFile(xmlWriter, 
                                         XmlPathGenerator.GetPathToCustomGraduateStudentsXmlFile()));
-            commandsManager.AddCommand(new CreateCustomSupervisorsXmlFile(xmlWriter,
-                                        XmlPathGenerator.GetPathToCustomGraduateSupervisorsXmlFile()));
+            commandsManager.AddCommand(new CreateCustomSupervisorsXmlFile(xmlWriter, customSupervisorsXmlFile));
             commandsManager.AddCommand(new ShowStudentsDataFromXmlWithXmlReader(xmlReader, consoleViewer));
             commandsManager.AddCommand(new ShowSupervisorsDataFromXmlWithXmlSerializer(xmlSerializer, consoleViewer));
             commandsManager.OrderCommands();
 
-            
-
-            string input = default;
+            string input;
             while(true)
             {
                 Console.Write("\n" + ConsoleTexts.EnterCommandNumberMessage + "\t");
