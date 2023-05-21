@@ -6,10 +6,10 @@ namespace lab3
 {
     public class Barista
     {
-        public IBeverage CreateEnglishTea(IBeverageBuilder beverageBuilder)
+        public IBeverage CreateEnglishTea(IBeverageBuilder beverageBuilder, CupType cupType)
         {
             beverageBuilder.Reset();
-            beverageBuilder.ChooseCup(CupType.Small);
+            beverageBuilder.ChooseCup(cupType);
             beverageBuilder.AddMainIngridient(MainIngridient.Green_Tea);
             beverageBuilder.AddLiquid(LiquidType.Water);
             beverageBuilder.AddLiquid(LiquidType.Milk);
@@ -17,10 +17,10 @@ namespace lab3
             Console.WriteLine("English tea is ready!");
             return tea;
         }
-        public IBeverage CreateSeaBuckthornTeaWithHoney(IBeverageBuilder beverageBuilder)
+        public IBeverage CreateSeaBuckthornTeaWithHoney(IBeverageBuilder beverageBuilder, CupType cupType)
         {
             beverageBuilder.Reset();
-            beverageBuilder.ChooseCup(CupType.Small);
+            beverageBuilder.ChooseCup(cupType);
             beverageBuilder.AddMainIngridient(MainIngridient.Black_Tea);
             beverageBuilder.AddTopping(Topping.Honey);
             beverageBuilder.AddTopping(Topping.Sea_Buckthorn);
@@ -29,10 +29,10 @@ namespace lab3
             Console.WriteLine("Sea buckthorn tea with honey is ready!");
             return tea;
         }
-        public IBeverage CreateRedTeaWithCarnationAndLemon(IBeverageBuilder beverageBuilder)
+        public IBeverage CreateRedTeaWithCarnationAndLemon(IBeverageBuilder beverageBuilder, CupType cupType)
         {
             beverageBuilder.Reset();
-            beverageBuilder.ChooseCup(CupType.Medium);
+            beverageBuilder.ChooseCup(cupType);
             beverageBuilder.AddMainIngridient(MainIngridient.Red_Tea);
             beverageBuilder.AddTopping(Topping.Lemon);
             beverageBuilder.AddTopping(Topping.Carnation);
@@ -41,20 +41,22 @@ namespace lab3
             Console.WriteLine("Red tea with carnation and lemon is ready!");
             return tea;
         }
-        public IBeverage CreateExpresso(IBeverageBuilder beverageBuilder)
+        public IBeverage CreateCinnamonWhippedCreamCoffee(IBeverageBuilder beverageBuilder, CupType cupType)
         {
             beverageBuilder.Reset();
-            beverageBuilder.ChooseCup(CupType.Small);
-            beverageBuilder.AddMainIngridient(MainIngridient.Robusta_Coffee);
+            beverageBuilder.ChooseCup(cupType);
+            beverageBuilder.AddMainIngridient(MainIngridient.Colombian_Coffee);
             beverageBuilder.AddLiquid(LiquidType.Water);
+            beverageBuilder.AddTopping(Topping.Cinnamon);
+            beverageBuilder.AddTopping(Topping.Whipped_Cream);
             CoffeeBeverage coffee = (CoffeeBeverage)beverageBuilder.GetBeverage();
-            Console.WriteLine("Expresso is ready!");
+            Console.WriteLine("Coffee with cinnamon and whipped cream is ready!");
             return coffee;
         }
-        public IBeverage CreateLatte(IBeverageBuilder beverageBuilder)
+        public IBeverage CreateLatte(IBeverageBuilder beverageBuilder, CupType cupType)
         {
             beverageBuilder.Reset();
-            beverageBuilder.ChooseCup(CupType.Medium);
+            beverageBuilder.ChooseCup(cupType);
             beverageBuilder.AddMainIngridient(MainIngridient.Arabica_Coffee);
             beverageBuilder.AddLiquid(LiquidType.Water);
             beverageBuilder.AddLiquid(LiquidType.Milk);
@@ -62,10 +64,10 @@ namespace lab3
             Console.WriteLine("Latte is ready!");
             return coffee;
         }
-        public IBeverage CreateCapuccino(IBeverageBuilder beverageBuilder)
+        public IBeverage CreateCapuccino(IBeverageBuilder beverageBuilder, CupType cupType)
         {
             beverageBuilder.Reset();
-            beverageBuilder.ChooseCup(CupType.Medium);
+            beverageBuilder.ChooseCup(cupType);
             beverageBuilder.AddMainIngridient(MainIngridient.Arabica_Coffee);
             beverageBuilder.AddLiquid(LiquidType.Water);
             beverageBuilder.AddLiquid(LiquidType.Milk);
@@ -75,10 +77,10 @@ namespace lab3
             Console.WriteLine("Capuccino is ready!");
             return coffee;
         }
-        public IBeverage CreateCoffeeWithMarshmallowAndCholate(IBeverageBuilder beverageBuilder)
+        public IBeverage CreateCoffeeWithMarshmallowAndCholate(IBeverageBuilder beverageBuilder, CupType cupType)
         {
             beverageBuilder.Reset();
-            beverageBuilder.ChooseCup(CupType.Medium);
+            beverageBuilder.ChooseCup(cupType);
             beverageBuilder.AddMainIngridient(MainIngridient.Arabica_Coffee);
             beverageBuilder.AddLiquid(LiquidType.Water);
             beverageBuilder.AddLiquid(LiquidType.Milk);
@@ -88,10 +90,10 @@ namespace lab3
             Console.WriteLine("Coffe woth marshmallows and chocolate shavings is ready!");
             return coffee;
         }
-        public IBeverage CreateCoconutCoffeeWithCaramel(IBeverageBuilder beverageBuilder)
+        public IBeverage CreateCoconutCoffeeWithCaramel(IBeverageBuilder beverageBuilder, CupType cupType)
         {
             beverageBuilder.Reset();
-            beverageBuilder.ChooseCup(CupType.Medium);
+            beverageBuilder.ChooseCup(cupType);
             beverageBuilder.AddMainIngridient(MainIngridient.Colombian_Coffee);
             beverageBuilder.AddLiquid(LiquidType.Water);
             beverageBuilder.AddTopping(Topping.Coconut_Flakes);

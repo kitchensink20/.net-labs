@@ -61,6 +61,15 @@ namespace lab3.Properties {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Choose the cup size(1-small, 2-medium, 3-big):.
+        /// </summary>
+        internal static string ChooseCupMessage {
+            get {
+                return ResourceManager.GetString("ChooseCupMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Press the corresponding number to choose a drink from the menu:.
         /// </summary>
         internal static string EnterNumberMessage {
@@ -82,7 +91,7 @@ namespace lab3.Properties {
         ///   Ищет локализованную строку, похожую на 1 - English tea
         ///2 - Sea buckthorn tea with honey
         ///3 - Red tea with carnation and lemon
-        ///4 - Expresso
+        ///4 - Coffee with cinnamon and whipped cream
         ///5 - Latte
         ///6 - Capuccino
         ///7 - Coffe woth marshmallows and chocolate shavings

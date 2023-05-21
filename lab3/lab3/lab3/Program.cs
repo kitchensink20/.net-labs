@@ -1,7 +1,4 @@
-﻿using System;
-using System.Reflection;
-
-namespace lab3
+﻿namespace lab3
 {
     internal class Program
     {
