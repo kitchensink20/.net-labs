@@ -29,7 +29,9 @@ namespace lab2.Properties
 
                 int i = 0;
 
-                writer.WriteStartElement("GraduateSupervisors"); 
+                writer.WriteStartElement("GraduateSupervisors");
+                writer.WriteAttributeString("xmlns", "xsi", null, "http://www.w3.org/2001/XMLSchema-instance");
+                writer.WriteAttributeString("xsi", "noNamespaceSchemaLocation", null, "GraduateSupervisor.xsd");
 
                 do
                 {
@@ -71,12 +73,15 @@ namespace lab2.Properties
                 int i = 0;
 
                 writer.WriteStartElement("GraduateStudents");
+                writer.WriteAttributeString("xmlns", "xsi", null, "http://www.w3.org/2001/XMLSchema-instance");
+                writer.WriteAttributeString("xsi", "noNamespaceSchemaLocation", null, "GraduateStudent.xsd");
 
                 do
                 {
                     Console.WriteLine("\nСтудент " + ++i);
 
                     writer.WriteStartElement("GraduateStudent");
+
 
                     Console.Write("Введіть повне ім'я студента:\t");
                     writer.WriteElementString("FullName", Console.ReadLine());
@@ -106,7 +111,7 @@ namespace lab2.Properties
                     {
                         Console.Write(ConsoleTexts.IntParseErrorMessage + "\t");
                     }
-                    writer.WriteElementString("GraduateSupervisorId", graduateSupervisorId.ToString());
+                    writer.WriteElementString("SupervisorId", graduateSupervisorId.ToString());
 
                     writer.WriteEndElement();
                 } while (i < studentAmount);

@@ -1,0 +1,10 @@
+C:\Users\Lenovo\Desktop\хуіта\ЛАБИ\семестр 4\.net\lab3\lab3\lab3\bin\Debug\lab3.exe.config
+C:\Users\Lenovo\Desktop\хуіта\ЛАБИ\семестр 4\.net\lab3\lab3\lab3\bin\Debug\lab3.exe
+C:\Users\Lenovo\Desktop\хуіта\ЛАБИ\семестр 4\.net\lab3\lab3\lab3\bin\Debug\lab3.pdb
+C:\Users\Lenovo\Desktop\хуіта\ЛАБИ\семестр 4\.net\lab3\lab3\lab3\obj\Debug\lab3.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\хуіта\ЛАБИ\семестр 4\.net\lab3\lab3\lab3\obj\Debug\lab3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\хуіта\ЛАБИ\семестр 4\.net\lab3\lab3\lab3\obj\Debug\lab3.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\хуіта\ЛАБИ\семестр 4\.net\lab3\lab3\lab3\obj\Debug\lab3.exe
+C:\Users\Lenovo\Desktop\хуіта\ЛАБИ\семестр 4\.net\lab3\lab3\lab3\obj\Debug\lab3.pdb
+C:\Users\Lenovo\Desktop\хуіта\ЛАБИ\семестр 4\.net\lab3\lab3\lab3\obj\Debug\lab3.Properties.ConsoleTexts.resources
+C:\Users\Lenovo\Desktop\хуіта\ЛАБИ\семестр 4\.net\lab3\lab3\lab3\obj\Debug\lab3.csproj.GenerateResource.cache

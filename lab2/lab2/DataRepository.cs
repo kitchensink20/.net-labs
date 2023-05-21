@@ -13,7 +13,8 @@ namespace lab2
         private readonly XDocument custStudentsDoc;
         private readonly XDocument custSupervisorsDoc;
 
-        public DataRepository(string studentsXmlFile, string supervisorsXmlFile, string custStudentsXmlFile, string custSupervisorsXmlFile)
+        public DataRepository(string studentsXmlFile, string supervisorsXmlFile, string custStudentsXmlFile, 
+            string custSupervisorsXmlFile)
         {
             studentsDoc = XDocument.Load(studentsXmlFile);
             supervisorsDoc = XDocument.Load(supervisorsXmlFile);

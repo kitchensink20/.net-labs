@@ -2,6 +2,7 @@
 using lab2.Models;
 using System.Collections.Generic;
 using System.Xml;
+using System.Xml.Serialization;
 
 namespace lab2.Commands
 {
@@ -23,6 +24,7 @@ namespace lab2.Commands
         }
         public void Execute()
         {
+
             List<GraduateSupervisor> graduateSupervisors = xmlSerializer.GetGraduateSupervisors(XmlPathGenerator.GetPathToGraduateSupervisorsXmlFile());
             consoleViewer.ShowDeserializedSupervisorsData(graduateSupervisors);
         }
