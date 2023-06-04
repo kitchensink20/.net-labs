@@ -1,0 +1,11 @@
+C:\Users\Lenovo\Desktop\хуіта\ЛАБИ\семестр 4\.net\lab4\lab4\lab4\bin\Debug\lab4.exe.config
+C:\Users\Lenovo\Desktop\хуіта\ЛАБИ\семестр 4\.net\lab4\lab4\lab4\bin\Debug\lab4.exe
+C:\Users\Lenovo\Desktop\хуіта\ЛАБИ\семестр 4\.net\lab4\lab4\lab4\bin\Debug\lab4.pdb
+C:\Users\Lenovo\Desktop\хуіта\ЛАБИ\семестр 4\.net\lab4\lab4\lab4\obj\Debug\lab4.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\хуіта\ЛАБИ\семестр 4\.net\lab4\lab4\lab4\obj\Debug\lab4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Desktop\хуіта\ЛАБИ\семестр 4\.net\lab4\lab4\lab4\obj\Debug\lab4.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\хуіта\ЛАБИ\семестр 4\.net\lab4\lab4\lab4\obj\Debug\lab4.exe
+C:\Users\Lenovo\Desktop\хуіта\ЛАБИ\семестр 4\.net\lab4\lab4\lab4\obj\Debug\lab4.pdb
+C:\Users\Lenovo\Desktop\хуіта\ЛАБИ\семестр 4\.net\lab4\lab4\lab4\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lenovo\Desktop\хуіта\ЛАБИ\семестр 4\.net\lab4\lab4\lab4\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lenovo\Desktop\хуіта\ЛАБИ\семестр 4\.net\lab4\lab4\lab4\obj\Debug\lab4.csproj.CopyComplete

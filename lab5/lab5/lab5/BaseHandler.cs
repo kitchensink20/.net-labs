@@ -24,7 +24,7 @@ namespace lab5
                 this.nextHandler.Handle(paymentType);
             }
         }
-
+        
         public abstract bool PerfomOperation(PaymentType paymentType);
     }
 }

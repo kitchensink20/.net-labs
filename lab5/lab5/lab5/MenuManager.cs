@@ -37,9 +37,8 @@ namespace lab5
             while (true)
             {
                 Console.Write("\n Choose option:\t");
-                string option = Console.ReadLine();
-
-                switch (option)
+               
+                switch (Console.ReadLine())
                 {
                     case "1":
                         regularPayment.ExecuteCommand();
