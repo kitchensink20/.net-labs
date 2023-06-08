@@ -7,9 +7,10 @@ namespace lab5.Handlers
     {
         public override bool PerfomOperation(PaymentType paymentType)
         {
+            bool isSuccessful = true;
             Console.WriteLine($"Perfoming counting operations for {paymentType} payment..");
 
-            return true;
+            return isSuccessful;
         }
     }
 }

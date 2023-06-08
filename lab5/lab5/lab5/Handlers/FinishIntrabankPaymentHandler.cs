@@ -7,10 +7,11 @@ namespace lab5.Handlers
     {
         public override bool PerfomOperation(PaymentType paymentType)
         {
+            bool isSuccessful = true;
             Console.WriteLine($"Finishing {paymentType} payment!\n" +
                 $"Intrabank payment refers to a financial transaction that occurs between accounts held within the same bank. ");
 
-            return true;
+            return isSuccessful;
         }
     }
 }

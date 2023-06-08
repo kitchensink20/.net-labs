@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\lab5"
   ],
-  "SelectedNode": "\\Program.cs",
+  "SelectedNode": "\\lab5\\MenuManager.cs",
   "PreviewInSolutionExplorer": false
 }

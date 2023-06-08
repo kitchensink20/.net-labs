@@ -44,10 +44,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseHandler.cs" />
-    <Compile Include="Commands\MakeIntrabankPayment.cs" />
-    <Compile Include="Commands\MakeRegularPayment.cs" />
-    <Compile Include="Commands\MakeSpecialPayment.cs" />
-    <Compile Include="Commands\MakeStatePayment.cs" />
     <Compile Include="Handlers\ControllingOperationHandler.cs" />
     <Compile Include="Enums\PaymentType.cs" />
     <Compile Include="Handlers\CountingOperationsHandler.cs" />
@@ -56,9 +52,7 @@
     <Compile Include="Handlers\FinishSpecialPaymentHandler.cs" />
     <Compile Include="Handlers\FinishStatePaymentHandler.cs" />
     <Compile Include="Handlers\FixingOperationHandler.cs" />
-    <Compile Include="Interfaces\ICommand.cs" />
     <Compile Include="Interfaces\IHandler.cs" />
-    <Compile Include="Invoker.cs" />
     <Compile Include="MenuManager.cs" />
     <Compile Include="PaymentChainsCreator.cs" />
     <Compile Include="Handlers\PercantageOperationHandler.cs" />

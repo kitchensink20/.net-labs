@@ -7,10 +7,11 @@ namespace lab5.Handlers
     {
         public override bool PerfomOperation(PaymentType paymentType)
         {
+            bool isSuccessful = true;
             Console.WriteLine($"Finishing {paymentType} payment!\n" +
                 $"Special payment may be made in special circumstances or events.");
 
-            return true;
+            return isSuccessful;
         }
     }
 }

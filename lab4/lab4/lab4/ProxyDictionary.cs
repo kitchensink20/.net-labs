@@ -48,7 +48,7 @@ namespace lab4
             Console.WriteLine("Searching for translation in file..");
             ukrainianTranslation = dictionary.FindUkrainianTranslation(englishTranslation);
             if (ukrainianTranslation == null)
-                Console.WriteLine("Nothing found.");
+                Console.WriteLine("Nothing found."); // exceptiuon or return null or return wrapper instance 
             else 
                 Console.WriteLine($"The translation is {ukrainianTranslation}.");
 

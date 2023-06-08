@@ -8,14 +8,14 @@ namespace lab4
 {
     public class RealDictionary : IDictionary
     {
-        private static readonly string basePath = Regex.Replace(AppContext.BaseDirectory, @"bin.*", "");
+        private static readonly string basePath = Regex.Replace(AppContext.BaseDirectory, @"bin.*", "");// not here 
         private readonly string filename;
         private readonly string filePath;
 
         public RealDictionary(string filename)
         {
             this.filename = filename;
-            filePath = $"{basePath}Resourses\\{filename}";
+            filePath = $"{basePath}Resourses\\{filename}"; //Path.Combine
         }
 
         public Dictionary<string, string> LoadDictionary()
